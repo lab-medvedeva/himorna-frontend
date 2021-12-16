@@ -1,0 +1,86 @@
+.table
+    border-radius 20px
+    background white
+    overflow hidden
+    filter $shadow
+    width 100%
+
+    &-wrap
+        padding-bottom 70px
+        position relative
+
+        &.double-top
+            margin-top 40px
+        &_long
+            overflow-x auto
+            padding-bottom 80px
+            .table-pagination
+                margin-bottom 10px
+
+    tr
+        font-size 12px
+        line-height 16px
+        color black
+        &:hover
+            td
+                background-color #f4f4f4
+        &:last-child
+            td
+                border-bottom none
+    
+    th
+        font-weight 500
+        padding 14px 16px
+        border-bottom 1px solid #e9e9f0
+        border-right 1px solid #e9e9f0
+        text-align left
+        t()
+        &:last-child
+            border-right: 0
+    td
+        padding 14px 16px
+        border-bottom 1px solid #e9e9f0
+        border-right 1px solid #e9e9f0
+        &:last-child
+            border-right: 0
+    
+    a
+        color #3E66FB
+        t()
+
+        &:hover
+            color #FB3ED1
+    
+    &-pagination
+        position absolute
+        right 0
+        bottom 0
+        height 56px
+        padding 16px 24px
+        display flex
+        align-items center
+        border-radius 20px
+        background white
+        filter $shadow
+
+        &__text
+            font-size 12px
+            line-height 16px
+            color rgba(0, 0, 0, 0.5)
+            margin-right 20px
+        
+        &__item
+            margin-left 20px
+            cursor pointer
+            padding 10px
+            img
+                t()
+            &:hover
+                img
+                    opacity 0.6
+            &.disable
+                img
+                    opacity 0.4
+            &.back
+                img
+                    transform rotate(180deg)

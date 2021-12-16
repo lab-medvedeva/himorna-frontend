@@ -1,0 +1,52 @@
+.v-select
+    position relative
+    margin-bottom 20px
+    max-width 246px
+    z-index 2
+    input
+        background white
+        font-size 18px
+        border 1px solid #f0f0f0
+        padding: 10px 20px
+        border-radius 10px
+        width 100%
+        box-sizing border-box
+        filter $shadow
+    .vs__clear
+        display none
+    .vs__selected
+        position absolute
+        z-index 2
+        top 14px
+        left 20px
+        font-size 18px
+        font-weight 500
+        color #fe5c78
+    .vs__actions
+        position absolute
+        z-index 2
+        top 18px
+        right 20px
+        opacity 0.3
+    
+    .vs__dropdown-toggle
+        position relative
+        z-index 3
+    
+    .vs__dropdown-menu
+        background-color white
+        position absolute
+        left 0
+        right 0
+        top 0
+        font-size 18px
+        padding-top 60px
+        border-radius 10px
+        z-index 2
+        filter $shadow
+        li
+            padding 5px 20px
+            cursor pointer
+            t()
+            &:hover
+                background-color #f8f8fb

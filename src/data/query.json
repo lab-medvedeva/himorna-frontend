@@ -1,0 +1,10 @@
+
+
+//search
+http://83.149.211.146:22180/lncrna/api/v1/search/results?page=0&page_count=10&hm=[H3K27ac,H3K27me3,H3K4me1,H4K20me1]&lncrna=[lncRNA1,lncRNA2,lncRNA3]&genes=[Gene1,Gene2,Gene3]&coords=[[chr1,123,456],[chr22,0,123456],[chrX,45678,1234]&thresholds_choisen=[true,true]&tresholds=[[0.35,0.75],[undefined]]
+
+//histone
+http://83.149.211.146:22180/lncrna/api/v1/info/modification?hm=H3K27ac&page=1&page_count=10
+
+//gene
+http://83.149.211.146:22180/lncrna/api/v1/info/gene?gene=H3K27ac&page=1&page_count=10

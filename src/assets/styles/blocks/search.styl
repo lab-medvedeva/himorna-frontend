@@ -1,0 +1,149 @@
+.search
+
+    .wrap
+        display flex
+        flex-wrap wrap
+    
+    .textarea
+        margin-bottom 20px
+
+    &-header
+        display flex
+        align-items center
+        h4
+            padding-bottom 0
+            margin-right 20px
+    
+    &-block
+        margin-bottom 75px
+        padding-right 70px
+        &_middle
+            width 50%
+            flex-direction column
+
+    &-wrap
+        margin-top 55px
+        display flex
+        flex-wrap wrap
+        .button_show
+            margin-top 20px
+        
+    
+    &-string
+        display flex
+        align-items center
+        width 100%
+        
+        .button
+            margin-right 30px
+
+        .input-add
+            margin-right 30px
+        
+        .clear
+            margin-left 25px
+            font-size 13px
+            cursor pointer
+            color #333
+            font-weight 500
+    
+    &-output
+        display flex
+        flex-wrap wrap
+        width 100%
+
+        &__item
+            padding 10px 17px
+            padding-top 12px
+            padding-right 40px
+            margin-right 20px
+            margin-top 20px
+            font-size 14px
+            font-weight 500
+            border-radius 50px
+            background #6ADBFF
+            color white
+            position relative
+            cursor pointer
+            t()
+            &:last-child
+                margin-right 0
+            
+            &:after
+                content ''
+                position absolute
+                width 13px
+                height 13px
+                background-image url('~@/assets/images/icon_close.svg')
+                background-repeat no-repeat
+                right 15px
+                top 13px
+            
+            &:hover
+                background #d6d8d8
+    
+    &-button
+        // margin-top 50px
+        width 100%
+        display flex
+        flex-direction column
+        align-items center
+
+        &__text
+            color #9F9F9F
+            font-size 14px
+            margin-top 15px
+
+
+    
+
+.info
+    position relative
+    width 22px
+    height 22px
+    cursor help
+    z-index 3
+    &:after
+        content ''
+        position absolute
+        border-radius 50%
+        background $neon
+        top 0
+        left 0
+        right 0
+        bottom 0
+    &:before
+        content '?'
+        position absolute
+        color white
+        font-size 13px
+        z-index 2
+        top 5px
+        left 8px
+    
+    &__window
+        position absolute
+        left -10px
+        top -10px
+        background white
+        border-radius 20px
+        padding 20px
+        padding-left 40px
+        width 100%
+        width 400px
+        font-size 13px
+        line-height 20px
+        opacity 0
+        pointer-events none
+        filter $shadow
+        t()
+    
+    &.black
+        z-index 2
+        &:after
+            background black
+    
+    &:hover
+        .info__window
+            opacity 1
+            pointer-events all

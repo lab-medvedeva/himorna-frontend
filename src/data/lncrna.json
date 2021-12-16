@@ -1,0 +1,580 @@
+{
+    "chart": {
+        "title": " Gene expression",
+        "elements": [
+          {
+            "label": "Chr1",
+            "value": 20
+          },
+          {
+            "label": "Chr2",
+            "value": 30
+          },
+          {
+            "label": "Chr3",
+            "value": 50
+          },
+          {
+            "label": "Chr4",
+            "value": 40
+          },
+          {
+            "label": "Chr5",
+            "value": 62
+          },
+          {
+            "label": "Chr6",
+            "value": 40
+          },
+          {
+            "label": "Chr7",
+            "value": 100
+          },
+          {
+            "label": "Chr8",
+            "value": 90
+          },
+          {
+            "label": "Chr9",
+            "value": 16
+          },
+          {
+            "label": "Chr10",
+            "value": 30
+          },
+          {
+            "label": "Chr11",
+            "value": 40
+          },
+          {
+            "label": "Chr12",
+            "value": 60
+          },
+          {
+            "label": "Chr13",
+            "value": 70
+          },
+          {
+            "label": "Chr14",
+            "value": 80
+          },
+          {
+            "label": "Chr15",
+            "value": 80
+          },
+          {
+            "label": "Chr16",
+            "value": 80
+          },
+          {
+            "label": "Chr17",
+            "value": 80
+          },
+          {
+            "label": "Chr18",
+            "value": 80
+          },
+          {
+            "label": "Chr19",
+            "value": 80
+          },
+          {
+            "label": "Chr20",
+            "value": 80
+          },
+          {
+            "label": "Chr21",
+            "value": 80
+          },
+          {
+            "label": "Chr22",
+            "value": 80
+          },
+          {
+            "label": "Chr23",
+            "value": 80
+          },
+          {
+            "label": "Chr2  4",
+            "value": 80
+          }
+        ]
+  
+      },
+      "barplot": {
+        "labels": ["Chr1", "Chr2", "Chr3", "Chr4", "Chr5", "Chr6"],
+        "elements": {
+
+          "H3K27me3":
+            [[
+                {
+                    "label": "Label",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "title": "Label",
+                    "x": 14,
+                    "y": 2
+                },
+                {
+                    "label": "Label",
+                    "x": 25,
+                    "y": -1
+                },
+                {
+                    "label": "Label",
+                    "x": 32,
+                    "y": -2
+                },
+                {
+                    "label": "Label",
+                    "x": 43,
+                    "y": -4
+                },
+                {
+                    "label": "Label",
+                    "x": 52,
+                    "y": -5
+                }
+            ],
+            [
+                {
+                    "label": "Label",
+                    "x": 3,
+                    "y": 2
+                },
+                {
+                    "title": "Label",
+                    "x": 12,
+                    "y": 3
+                },
+                {
+                    "label": "Label",
+                    "x": 23,
+                    "y": -2
+                },
+                {
+                    "label": "Label",
+                    "x": 35,
+                    "y": -3
+                },
+                {
+                    "label": "Label",
+                    "x": 41,
+                    "y": -5
+                },
+                {
+                    "label": "Label",
+                    "x": 52,
+                    "y": -5
+                }
+            ],
+            [
+                {
+                    "label": "Label",
+                    "x": 2,
+                    "y": 5
+                },
+                {
+                    "title": "Label",
+                    "x": 11,
+                    "y": 7
+                },
+                {
+                    "label": "Label",
+                    "x": 24,
+                    "y": -3
+                },
+                {
+                    "label": "Label",
+                    "x": 31,
+                    "y": -5
+                },
+                {
+                    "label": "Label",
+                    "x": 42,
+                    "y": -8
+                },
+                {
+                    "label": "Label",
+                    "x": 52,
+                    "y": -5
+                }
+            ]
+        ],
+          "Methylation":
+            [[
+                {
+                    "label": "Label",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "title": "Label",
+                    "x": 14,
+                    "y": 2
+                },
+                {
+                    "label": "Label",
+                    "x": 25,
+                    "y": -1
+                },
+                {
+                    "label": "Label",
+                    "x": 32,
+                    "y": -2
+                },
+                {
+                    "label": "Label",
+                    "x": 43,
+                    "y": -4
+                },
+                {
+                    "label": "Label",
+                    "x": 53,
+                    "y": -5
+                }
+            ],
+            [
+                {
+                    "label": "Label",
+                    "x": 3,
+                    "y": 2
+                },
+                {
+                    "title": "Label",
+                    "x": 12,
+                    "y": 3
+                },
+                {
+                    "label": "Label",
+                    "x": 23,
+                    "y": -2
+                },
+                {
+                    "label": "Label",
+                    "x": 36,
+                    "y": -3
+                },
+                {
+                    "label": "Label",
+                    "x": 48,
+                    "y": -5
+                },
+                {
+                    "label": "Label",
+                    "x": 59,
+                    "y": -5
+                }
+            ],
+            [
+                {
+                    "label": "Label",
+                    "x": 20,
+                    "y": 5
+                },
+                {
+                    "title": "Label",
+                    "x": 10,
+                    "y": 7
+                },
+                {
+                    "label": "Label",
+                    "x": 30,
+                    "y": -3
+                },
+                {
+                    "label": "Label",
+                    "x": 40,
+                    "y": -5
+                },
+                {
+                    "label": "Label",
+                    "x": 40,
+                    "y": -8
+                },
+                {
+                    "label": "Label",
+                    "x": 40,
+                    "y": -5
+                }
+            ]
+        ],
+          "H3K27ac":
+            [[
+                {
+                    "label": "Label",
+                    "x": 12,
+                    "y": 1
+                },
+                {
+                    "title": "Label",
+                    "x": 24,
+                    "y": 2
+                },
+                {
+                    "label": "Label",
+                    "x": 35,
+                    "y": -1
+                },
+                {
+                    "label": "Label",
+                    "x": 42,
+                    "y": -2
+                },
+                {
+                    "label": "Label",
+                    "x": 53,
+                    "y": -4
+                },
+                {
+                    "label": "Label",
+                    "x": 52,
+                    "y": -5
+                }
+            ],
+            [
+                {
+                    "label": "Label",
+                    "x": 3,
+                    "y": 2
+                },
+                {
+                    "title": "Label",
+                    "x": 12,
+                    "y": 3
+                },
+                {
+                    "label": "Label",
+                    "x": 30,
+                    "y": -2
+                },
+                {
+                    "label": "Label",
+                    "x": 40,
+                    "y": -3
+                },
+                {
+                    "label": "Label",
+                    "x": 40,
+                    "y": -5
+                },
+                {
+                    "label": "Label",
+                    "x": 40,
+                    "y": -5
+                }
+            ],
+            [
+                {
+                    "label": "Label",
+                    "x": 20,
+                    "y": 5
+                },
+                {
+                    "title": "Label",
+                    "x": 10,
+                    "y": 7
+                },
+                {
+                    "label": "Label",
+                    "x": 30,
+                    "y": -3
+                },
+                {
+                    "label": "Label",
+                    "x": 40,
+                    "y": -5
+                },
+                {
+                    "label": "Label",
+                    "x": 40,
+                    "y": -8
+                },
+                {
+                    "label": "Label",
+                    "x": 40,
+                    "y": -5
+                }
+            ]
+        ]
+      }
+  
+      },
+      "table": {
+        "all_counts": 24,
+        "data": [
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            }
+      ]
+},
+    "links": [
+        {
+            "name": "LinkNavigation",
+            "link": "http://alexey-chernov.ru/"
+        },
+        {
+            "name": "LinkNavigation",
+            "link": "http://alexey-chernov.ru/"
+        },
+        {
+            "name": "LinkNavigation",
+            "link": "http://alexey-chernov.ru/"
+        },
+        {
+            "name": "LinkNavigation",
+            "link": "http://alexey-chernov.ru/"
+        },
+        {
+            "name": "LinkNavigation",
+            "link": "http://alexey-chernov.ru/"
+        },
+        {
+            "name": "LinkNavigation",
+            "link": "http://alexey-chernov.ru/"
+        },
+        {
+            "name": "LinkNavigation",
+            "link": "http://alexey-chernov.ru/"
+        },
+        {
+            "name": "LinkNavigation",
+            "link": "http://alexey-chernov.ru/"
+        },
+        {
+            "name": "LinkNavigation",
+            "link": "http://alexey-chernov.ru/"
+        },
+        {
+            "name": "LinkNavigation",
+            "link": "http://alexey-chernov.ru/"
+        },
+        {
+            "name": "LinkNavigation",
+            "link": "http://alexey-chernov.ru/"
+        },
+        {
+            "name": "LinkNavigation",
+            "link": "http://alexey-chernov.ru/"
+        }
+    ]
+}

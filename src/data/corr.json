@@ -1,0 +1,144 @@
+{
+    "title": " Gene expression",
+    "chart": {
+        "line": [
+          {"x":0, "y":0}, {"x":50, "y":50}, {"x":50, "y":50}, {"x":50, "y":50}
+        ],
+        "points": [{
+            "x": 30,
+            "y": 20
+        }, {
+            "x": 20,
+            "y": 10
+        }, {
+            "x": 10,
+            "y": 40
+        }]
+  
+      },
+      "table": {
+        "all_counts": 24,
+        "data": [
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            },
+            {
+                "Histone Modification": "H3K27ac",
+                "lncRNA": "MEG3",
+                "Gene": "p53",
+                "GeneId": "ENSG000123",
+                "Chr": "chr1",
+                "Start": "chr1",
+                "End": "134",
+                "Corr": "134",
+                "Colocalization": "yes",
+                "Knockdown": "no"
+            }
+      ]
+}
+}
